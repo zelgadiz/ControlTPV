@@ -24,7 +24,7 @@ Public Class Clientes
             objCon = New SQLiteConnection(cad_conn)
             objCon.Open()
             objComm = objCon.CreateCommand()
-            objComm.CommandText = "INSERT INTO clientes (codigo, nombre, ap_pat, ap_mat, sexo, direc, tel, correo) values ('" + codCliente.Text + "','" + nomCliente.Text + "','" + patCliente.Text + "','" + matCliente.Text + "','" + sexCliente.Text + "','" + dirCliente.Text + "','" + telCliente.Text + "','" + correoCliente.Text + "');"
+            objComm.CommandText = "INSERT INTO clientes (codigo, nombre, ap_pat, ap_mat, sexo, fec_nac, direc, tel, correo) values ('" + codCliente.Text + "','" + nomCliente.Text + "','" + patCliente.Text + "','" + matCliente.Text + "','" + sexCliente.Text + "','" + DateTimePicker1.Value.Date + "','" + dirCliente.Text + "','" + telCliente.Text + "','" + correoCliente.Text + "');"
             'objComm.CommandText = "CREATE TABLE IF NOT EXISTS prueba (id INTEGER PRIMARY KEY AUTOINCREMENT, nombre VARCHAR(20), apellido VARCHAR(20));"
             'objComm.ExecuteNonQuery()
             'objComm.CommandText = "INSERT INTO prueba (nombre, apellido) values('Rubén', 'Crisanto');"
