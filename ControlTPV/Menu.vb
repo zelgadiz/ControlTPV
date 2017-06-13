@@ -1,4 +1,7 @@
-﻿Public Class Control
+﻿Imports System.Data.SQLite
+
+Public Class Control
+    'Const conex As String = "Data source=ControlTPV.sqlite;Version=3;Compress=True;"
     Private Sub SalirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalirToolStripMenuItem.Click
         Cerrar()
     End Sub
