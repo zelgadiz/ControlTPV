@@ -20,4 +20,14 @@ Public Class Control
         client.Show()
         client.WindowState = FormWindowState.Maximized
     End Sub
+
+    Private Sub VendedorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VendedorToolStripMenuItem.Click
+        abreUsr()
+    End Sub
+    Sub abreUsr()
+        Dim abreUsr As New frmUsr()
+        abreUsr.MdiParent = Me
+        abreUsr.Show()
+        abreUsr.WindowState = FormWindowState.Maximized
+    End Sub
 End Class

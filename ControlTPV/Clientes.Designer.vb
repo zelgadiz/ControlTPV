@@ -68,10 +68,10 @@ Partial Class Clientes
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Location = New System.Drawing.Point(16, 15)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabControl1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1016, 564)
+        Me.TabControl1.Size = New System.Drawing.Size(1049, 571)
         Me.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed
         Me.TabControl1.TabIndex = 0
         '
@@ -79,10 +79,10 @@ Partial Class Clientes
         '
         Me.TabPage2.Controls.Add(Me.GroupBox1)
         Me.TabPage2.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
-        Me.TabPage2.Size = New System.Drawing.Size(1008, 535)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(4)
+        Me.TabPage2.Size = New System.Drawing.Size(1041, 542)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Añadir"
         Me.TabPage2.UseVisualStyleBackColor = True
@@ -114,9 +114,9 @@ Partial Class Clientes
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.codCliente)
         Me.GroupBox1.Location = New System.Drawing.Point(25, 50)
-        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Size = New System.Drawing.Size(955, 466)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
@@ -135,7 +135,7 @@ Partial Class Clientes
         'lnacCliente
         '
         Me.lnacCliente.Location = New System.Drawing.Point(204, 245)
-        Me.lnacCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.lnacCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.lnacCliente.Name = "lnacCliente"
         Me.lnacCliente.Size = New System.Drawing.Size(469, 22)
         Me.lnacCliente.TabIndex = 7
@@ -143,7 +143,7 @@ Partial Class Clientes
         'Button4
         '
         Me.Button4.Location = New System.Drawing.Point(747, 379)
-        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(149, 59)
         Me.Button4.TabIndex = 14
@@ -153,7 +153,7 @@ Partial Class Clientes
         'Button3
         '
         Me.Button3.Location = New System.Drawing.Point(747, 266)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(149, 59)
         Me.Button3.TabIndex = 13
@@ -163,7 +163,7 @@ Partial Class Clientes
         'Button2
         '
         Me.Button2.Location = New System.Drawing.Point(747, 160)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(149, 59)
         Me.Button2.TabIndex = 12
@@ -173,7 +173,7 @@ Partial Class Clientes
         'Button1
         '
         Me.Button1.Location = New System.Drawing.Point(747, 46)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(149, 59)
         Me.Button1.TabIndex = 11
@@ -193,7 +193,7 @@ Partial Class Clientes
         'correoCliente
         '
         Me.correoCliente.Location = New System.Drawing.Point(397, 410)
-        Me.correoCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.correoCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.correoCliente.Name = "correoCliente"
         Me.correoCliente.Size = New System.Drawing.Size(276, 22)
         Me.correoCliente.TabIndex = 10
@@ -211,7 +211,7 @@ Partial Class Clientes
         'telCliente
         '
         Me.telCliente.Location = New System.Drawing.Point(125, 410)
-        Me.telCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.telCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.telCliente.Name = "telCliente"
         Me.telCliente.Size = New System.Drawing.Size(177, 22)
         Me.telCliente.TabIndex = 9
@@ -219,7 +219,7 @@ Partial Class Clientes
         'dirCliente
         '
         Me.dirCliente.Location = New System.Drawing.Point(125, 305)
-        Me.dirCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.dirCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.dirCliente.Multiline = True
         Me.dirCliente.Name = "dirCliente"
         Me.dirCliente.Size = New System.Drawing.Size(548, 67)
@@ -248,7 +248,7 @@ Partial Class Clientes
         'matCliente
         '
         Me.matCliente.Location = New System.Drawing.Point(455, 116)
-        Me.matCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.matCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.matCliente.Name = "matCliente"
         Me.matCliente.Size = New System.Drawing.Size(219, 22)
         Me.matCliente.TabIndex = 4
@@ -256,7 +256,7 @@ Partial Class Clientes
         'DateTimePicker1
         '
         Me.DateTimePicker1.Location = New System.Drawing.Point(404, 186)
-        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.DateTimePicker1.Margin = New System.Windows.Forms.Padding(4)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(265, 22)
         Me.DateTimePicker1.TabIndex = 6
@@ -286,7 +286,7 @@ Partial Class Clientes
         Me.sexCliente.FormattingEnabled = True
         Me.sexCliente.Items.AddRange(New Object() {"Masculino", "Femenino"})
         Me.sexCliente.Location = New System.Drawing.Point(125, 186)
-        Me.sexCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.sexCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.sexCliente.Name = "sexCliente"
         Me.sexCliente.Size = New System.Drawing.Size(95, 24)
         Me.sexCliente.TabIndex = 5
@@ -304,7 +304,7 @@ Partial Class Clientes
         'patCliente
         '
         Me.patCliente.Location = New System.Drawing.Point(125, 116)
-        Me.patCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.patCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.patCliente.Name = "patCliente"
         Me.patCliente.Size = New System.Drawing.Size(219, 22)
         Me.patCliente.TabIndex = 3
@@ -322,7 +322,7 @@ Partial Class Clientes
         'nomCliente
         '
         Me.nomCliente.Location = New System.Drawing.Point(384, 46)
-        Me.nomCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.nomCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.nomCliente.Name = "nomCliente"
         Me.nomCliente.Size = New System.Drawing.Size(289, 22)
         Me.nomCliente.TabIndex = 2
@@ -340,7 +340,7 @@ Partial Class Clientes
         'codCliente
         '
         Me.codCliente.Location = New System.Drawing.Point(125, 46)
-        Me.codCliente.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.codCliente.Margin = New System.Windows.Forms.Padding(4)
         Me.codCliente.Name = "codCliente"
         Me.codCliente.Size = New System.Drawing.Size(132, 22)
         Me.codCliente.TabIndex = 1
@@ -349,9 +349,9 @@ Partial Class Clientes
         '
         Me.TabPage1.Controls.Add(Me.TextBox1)
         Me.TabPage1.Location = New System.Drawing.Point(4, 25)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(4)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(4)
         Me.TabPage1.Size = New System.Drawing.Size(1008, 535)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Listado"
@@ -360,7 +360,7 @@ Partial Class Clientes
         'TextBox1
         '
         Me.TextBox1.Location = New System.Drawing.Point(737, 468)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(132, 22)
         Me.TextBox1.TabIndex = 0
@@ -372,7 +372,7 @@ Partial Class Clientes
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(8, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1049, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1082, 28)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -387,12 +387,12 @@ Partial Class Clientes
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1049, 596)
+        Me.ClientSize = New System.Drawing.Size(1082, 603)
         Me.ControlBox = False
         Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.MainMenuStrip = Me.MenuStrip1
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "Clientes"
         Me.Text = "Clientes"
         Me.TabControl1.ResumeLayout(False)
