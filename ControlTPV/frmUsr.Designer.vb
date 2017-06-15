@@ -22,114 +22,123 @@ Partial Class frmUsr
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle7 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle8 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.btnNuevoUsr = New System.Windows.Forms.Button()
-        Me.usrBaja = New System.Windows.Forms.RadioButton()
+        Me.usrBajaX = New System.Windows.Forms.RadioButton()
         Me.btnBuscarMail = New System.Windows.Forms.Button()
         Me.btnBuscarNom = New System.Windows.Forms.Button()
         Me.btnBuscarUsr = New System.Windows.Forms.Button()
         Me.txtUsrBuscar = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.usrBaja = New System.Windows.Forms.CheckBox()
         Me.GroupBox1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
         '
-        Me.GroupBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.GroupBox1.AutoSize = True
         Me.GroupBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.GroupBox1.Controls.Add(Me.usrBaja)
         Me.GroupBox1.Controls.Add(Me.Button5)
         Me.GroupBox1.Controls.Add(Me.btnNuevoUsr)
-        Me.GroupBox1.Controls.Add(Me.usrBaja)
+        Me.GroupBox1.Controls.Add(Me.usrBajaX)
         Me.GroupBox1.Controls.Add(Me.btnBuscarMail)
         Me.GroupBox1.Controls.Add(Me.btnBuscarNom)
         Me.GroupBox1.Controls.Add(Me.btnBuscarUsr)
         Me.GroupBox1.Controls.Add(Me.txtUsrBuscar)
         Me.GroupBox1.Controls.Add(Me.Label1)
         Me.GroupBox1.Controls.Add(Me.DataGridView1)
-        Me.GroupBox1.Location = New System.Drawing.Point(12, 12)
+        Me.GroupBox1.Location = New System.Drawing.Point(9, 10)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(1046, 577)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(784, 469)
         Me.GroupBox1.TabIndex = 1
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Administración de Usuario"
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(858, 82)
+        Me.Button5.Location = New System.Drawing.Point(644, 67)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(155, 23)
+        Me.Button5.Size = New System.Drawing.Size(116, 19)
         Me.Button5.TabIndex = 8
         Me.Button5.Text = "Salir"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'btnNuevoUsr
         '
-        Me.btnNuevoUsr.Location = New System.Drawing.Point(684, 131)
+        Me.btnNuevoUsr.Location = New System.Drawing.Point(513, 106)
+        Me.btnNuevoUsr.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnNuevoUsr.Name = "btnNuevoUsr"
-        Me.btnNuevoUsr.Size = New System.Drawing.Size(155, 23)
+        Me.btnNuevoUsr.Size = New System.Drawing.Size(116, 19)
         Me.btnNuevoUsr.TabIndex = 7
         Me.btnNuevoUsr.Text = "Nuevo"
         Me.btnNuevoUsr.UseVisualStyleBackColor = True
         '
-        'usrBaja
+        'usrBajaX
         '
-        Me.usrBaja.AutoSize = True
-        Me.usrBaja.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.usrBaja.Location = New System.Drawing.Point(869, 133)
-        Me.usrBaja.Name = "usrBaja"
-        Me.usrBaja.Size = New System.Drawing.Size(132, 21)
-        Me.usrBaja.TabIndex = 6
-        Me.usrBaja.TabStop = True
-        Me.usrBaja.Text = "Usuario De Baja"
-        Me.usrBaja.UseVisualStyleBackColor = True
+        Me.usrBajaX.AutoSize = True
+        Me.usrBajaX.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.usrBajaX.Location = New System.Drawing.Point(652, 108)
+        Me.usrBajaX.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.usrBajaX.Name = "usrBajaX"
+        Me.usrBajaX.Size = New System.Drawing.Size(102, 17)
+        Me.usrBajaX.TabIndex = 6
+        Me.usrBajaX.Text = "Usuario De Baja"
+        Me.usrBajaX.UseVisualStyleBackColor = True
         '
         'btnBuscarMail
         '
-        Me.btnBuscarMail.Location = New System.Drawing.Point(502, 131)
+        Me.btnBuscarMail.Location = New System.Drawing.Point(376, 106)
+        Me.btnBuscarMail.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnBuscarMail.Name = "btnBuscarMail"
-        Me.btnBuscarMail.Size = New System.Drawing.Size(155, 23)
+        Me.btnBuscarMail.Size = New System.Drawing.Size(116, 19)
         Me.btnBuscarMail.TabIndex = 5
         Me.btnBuscarMail.Text = "Correo"
         Me.btnBuscarMail.UseVisualStyleBackColor = True
         '
         'btnBuscarNom
         '
-        Me.btnBuscarNom.Location = New System.Drawing.Point(684, 82)
+        Me.btnBuscarNom.Location = New System.Drawing.Point(513, 67)
+        Me.btnBuscarNom.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnBuscarNom.Name = "btnBuscarNom"
-        Me.btnBuscarNom.Size = New System.Drawing.Size(155, 23)
+        Me.btnBuscarNom.Size = New System.Drawing.Size(116, 19)
         Me.btnBuscarNom.TabIndex = 4
         Me.btnBuscarNom.Text = "Nombre"
         Me.btnBuscarNom.UseVisualStyleBackColor = True
         '
         'btnBuscarUsr
         '
-        Me.btnBuscarUsr.Location = New System.Drawing.Point(502, 82)
+        Me.btnBuscarUsr.Location = New System.Drawing.Point(376, 67)
+        Me.btnBuscarUsr.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnBuscarUsr.Name = "btnBuscarUsr"
-        Me.btnBuscarUsr.Size = New System.Drawing.Size(155, 23)
+        Me.btnBuscarUsr.Size = New System.Drawing.Size(116, 19)
         Me.btnBuscarUsr.TabIndex = 3
         Me.btnBuscarUsr.Text = "Usuario"
         Me.btnBuscarUsr.UseVisualStyleBackColor = True
         '
         'txtUsrBuscar
         '
-        Me.txtUsrBuscar.Location = New System.Drawing.Point(140, 82)
+        Me.txtUsrBuscar.Location = New System.Drawing.Point(105, 67)
+        Me.txtUsrBuscar.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtUsrBuscar.Name = "txtUsrBuscar"
-        Me.txtUsrBuscar.Size = New System.Drawing.Size(325, 22)
+        Me.txtUsrBuscar.Size = New System.Drawing.Size(245, 20)
         Me.txtUsrBuscar.TabIndex = 2
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(29, 85)
+        Me.Label1.Location = New System.Drawing.Point(22, 69)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(96, 17)
+        Me.Label1.Size = New System.Drawing.Size(73, 13)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Palabra Clave"
         '
@@ -137,37 +146,48 @@ Partial Class frmUsr
         '
         Me.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Window
-        DataGridViewCellStyle7.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.ControlText
-        DataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle7
-        Me.DataGridView1.Location = New System.Drawing.Point(20, 188)
+        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window
+        DataGridViewCellStyle5.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText
+        DataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.DataGridView1.DefaultCellStyle = DataGridViewCellStyle5
+        Me.DataGridView1.Location = New System.Drawing.Point(15, 153)
+        Me.DataGridView1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.DataGridView1.Name = "DataGridView1"
-        DataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control
-        DataGridViewCellStyle8.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText
-        DataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle8
+        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control
+        DataGridViewCellStyle6.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText
+        DataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.DataGridView1.RowHeadersDefaultCellStyle = DataGridViewCellStyle6
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.DataGridView1.Size = New System.Drawing.Size(1020, 368)
+        Me.DataGridView1.Size = New System.Drawing.Size(765, 299)
         Me.DataGridView1.TabIndex = 0
+        '
+        'usrBaja
+        '
+        Me.usrBaja.AutoSize = True
+        Me.usrBaja.CheckAlign = System.Drawing.ContentAlignment.MiddleRight
+        Me.usrBaja.Location = New System.Drawing.Point(652, 130)
+        Me.usrBaja.Name = "usrBaja"
+        Me.usrBaja.Size = New System.Drawing.Size(101, 17)
+        Me.usrBaja.TabIndex = 9
+        Me.usrBaja.Text = "Usuario de Baja"
+        Me.usrBaja.UseVisualStyleBackColor = True
         '
         'frmUsr
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1082, 603)
+        Me.ClientSize = New System.Drawing.Size(812, 490)
         Me.ControlBox = False
         Me.Controls.Add(Me.GroupBox1)
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "frmUsr"
         Me.Text = "Usuarios"
         Me.GroupBox1.ResumeLayout(False)
@@ -186,5 +206,6 @@ Partial Class frmUsr
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Button5 As Button
     Friend WithEvents btnNuevoUsr As Button
-    Friend WithEvents usrBaja As RadioButton
+    Friend WithEvents usrBajaX As RadioButton
+    Friend WithEvents usrBaja As CheckBox
 End Class
