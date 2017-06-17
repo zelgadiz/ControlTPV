@@ -49,10 +49,12 @@ Public Class frmUsr
     REM SE TERMINAN YA LAS BUSQUEDAS POR TIPO DE DATO CON LA OPCION DE ACTIVO O NO EL USUARIO
     REM AHORA PROCEDO A INICIAR CON LOS DATOS PARA MODIFICAR, CREAR O ELIMINAR EN LOS USUARIOS
     Private Sub DataGridView1_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DataGridView1.CellDoubleClick
-        Dim frmUsrMod As New frmUsrMod
+        '        Dim frmUsrMod As New frmUsrMod REM  CREO QUE ESTE DEBE IR EN CMD DONDE SE MANDA LOS COMANDOS
         Dim linea As DataGridViewRow = DataGridView1.Rows(e.RowIndex)
         '      frmUsrMod.usrPonDts(cs)
-        frmUsrMod.ShowDialog()
-
+        Dim lnl As String = CStr(linea.Cells(0).Value)
+        Dim Sql As String = "SELECT * FROM vendedor WHERE usuario = '" + lnl + "';"
+        '       frmUsrMod.ShowDialog()
+        obj.usrClkMod(Sql)
     End Sub
 End Class
